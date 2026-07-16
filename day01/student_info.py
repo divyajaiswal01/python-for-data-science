@@ -1,0 +1,15 @@
+# Student Information system
+name = input("Enter your name: ")
+age = input(int("Enter your age: "))
+department = input("Enter your department: ")
+roll_number = input("Enter your roll number: ")
+cgpa = input(float("Enter your CGPA: "))
+city = input("Enter your city: ")   
+
+print("\nStudent Information:")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Department: {department}")
+print(f"Roll Number: {roll_number}")
+print(f"CGPA: {cgpa}")
+print(f"City: {city}")
